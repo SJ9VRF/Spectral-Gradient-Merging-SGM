@@ -27,3 +27,17 @@ env\Scripts\activate  # On Windows
 
 pip install -r requirements.txt
 ```
+
+
+``` bash
+python src/finetune.py
+```
+
+
+``` bash
+python src/evaluate.py
+```
+
+``` bash
+output/sgm_finetuned.pth
+```
