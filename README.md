@@ -18,3 +18,12 @@ git clone https://github.com/your-username/sgm-finetune.git
 cd sgm-finetune
 ```
 
+
+Set Up Virtual Environment & Install Dependencies
+``` bash
+python -m venv env
+source env/bin/activate  # On Mac/Linux
+env\Scripts\activate  # On Windows
+
+pip install -r requirements.txt
+```
