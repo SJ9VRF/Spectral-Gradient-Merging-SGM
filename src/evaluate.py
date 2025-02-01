@@ -1,3 +1,5 @@
+# This script evaluates the fine-tuned SGM (Spectral Gradient Merging) model on a test dataset.
+
 import torch
 from torch.utils.data import DataLoader
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
